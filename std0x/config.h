@@ -3,12 +3,20 @@
 
 #pragma once
 // B$ - filler
-// Left half should have two fake columns to make left & right matrix equals
+
 #define MATRIX_COL_PINS             { B0,   A7,   A6,   A5,   A4,  A3, A2}
 #define MATRIX_ROW_PINS             { B12,  B13,  B14,  A9, B15,  A8}
 
 #define MATRIX_COL_PINS_RIGHT       { B12,  B13,  B14,  B15,  A8,  A9,  A10}
 #define MATRIX_ROW_PINS_RIGHT       { B0,   A7,   A6,   A5,   A4,  A3}
+
+
+// encoder without _RIGHT is left (default side)
+#define ENCODER_A_PINS { B6 }
+#define ENCODER_B_PINS { B7 }
+#define ENCODER_RESOLUTION 2  
+#define ENCODER_MAP_KEY_DELAY 10
+
 
 #define SOFT_SERIAL_PIN B10
 #define SERIAL_USART_DRIVER SD3
