@@ -1,7 +1,11 @@
 # STd0x_keyboard
 Split wired keyboard based on Redox keyboard, but use two STM32F103C8, driven by QMK, support VIA
-Thanks to MattDB (https://www.thingiverse.com/MattDB) for models, and keyboard generally ( because they was slightly remixed for STM32 bluepill devboard)
+
+Thanks to MattDB (https://www.thingiverse.com/MattDB) for models,
+and keyboard generally ( because they was slightly remixed for STM32 bluepill devboard)
+
 QMK core: https://qmk.fm/ 
+
 Used parts and components:
 - minijack ports
 https://aliexpress.ru/item/1005004514450752.html
