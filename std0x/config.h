@@ -18,6 +18,18 @@
 #define ENCODER_MAP_KEY_DELAY 10
 
 
+#define MOUSEKEY_DELAY	            1	       Delay between pressing a movement key and cursor movement
+#define MOUSEKEY_INTERVAL	        25	   	   Time between cursor movements in milliseconds
+#define MOUSEKEY_MOVE_DELTA	        3	       Step size
+#define MOUSEKEY_MAX_SPEED	        4	       Maximum cursor speed at which acceleration stops
+#define MOUSEKEY_TIME_TO_MAX	    10	       Time until maximum cursor speed is reached
+#define MOUSEKEY_WHEEL_DELAY	    2	       Delay between pressing a wheel key and wheel movement
+#define MOUSEKEY_WHEEL_INTERVAL	    75	       Time between wheel movements
+#define MOUSEKEY_WHEEL_DELTA	    1	       Wheel movement step size
+#define MOUSEKEY_WHEEL_MAX_SPEED	10	       Maximum number of scroll steps per scroll action
+#define MOUSEKEY_WHEEL_TIME_TO_MAX	40	       Time until maximum scroll speed is reached
+
+
 #define SOFT_SERIAL_PIN B10
 #define SERIAL_USART_DRIVER SD3
 #define SPLIT_LAYER_STATE_ENABLE
@@ -29,8 +41,6 @@
 
 //#define SPLIT_USB_DETECT
 //#define SPLIT_USB_TIMEOUT 1500
-
-#define MASTER_LEFT
 
 #define SPLIT_HAND_PIN B8
 

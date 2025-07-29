@@ -1,0 +1,8 @@
+#pragma once
+
+//#define VIA_EEPROM_CUSTOM_CONFIG_SIZE 20480
+
+#define VIAL_KEYBOARD_UID {0x34, 0x2A, 0xB8, 0x8C, 0xAA, 0x8E, 0x0D, 0x70}
+
+#define VIAL_UNLOCK_COMBO_ROWS { 0, 6 }
+#define VIAL_UNLOCK_COMBO_COLS { 0, 6 }

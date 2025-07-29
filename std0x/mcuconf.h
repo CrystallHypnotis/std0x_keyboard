@@ -13,13 +13,3 @@
 #define BACKLIGHT_GPT_DRIVER GPTD2
 #undef STM32_GPT_USE_TIM2
 #define STM32_GPT_USE_TIM2 TRUE
-
-
-
-
-
-
-
-
-
-
